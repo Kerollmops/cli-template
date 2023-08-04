@@ -1,0 +1,10 @@
+[package]
+name = "{{project-name | snake_case}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+description = "{{description}}"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.72"
+clap = {version = "4.3.19", features = ["derive"] }
